@@ -1,0 +1,172 @@
+*{
+
+    padding: .3rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*cores  
+laranja: #f39c12
+cor-rosa: #fd79a8
+rosa-menos:#ff7675
+preto-nice:#636e72
+
+pra cartoes
+laranja-fraco:#e17055
+azul-fraco:#00cec9
+verde-aceso:#55efc4
+
+GRADIENTE
+
+----------
+laranja
+#f2994a
+→ 
+#f2c94c
+--------
+
+*/
+/*HEADINGS */
+
+h1{
+    margin-top: 40px;
+}
+h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#section1-h1{
+    font-weight: 400;
+ text-transform: uppercase;
+margin: 20px auto;
+color: #fff;
+text-align: center;
+opacity: 0.9;
+}
+#section1-h2{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 20px auto;
+    color: #fff;
+    font-weight: 500;
+    opacity: 0.9;
+    
+}
+#header1{
+    color:white;
+    font-weight: 400;
+    opacity: 0.88;
+}
+#header2{
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color:white;
+    margin-bottom: 2.5rem;
+    opacity: 0.88;
+}
+
+#cor{
+    color:white;
+}
+
+/* HEADERS */
+
+
+.nav-link{
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ 
+}
+
+.navbar-nav{
+    color: #fff;
+}
+.nav-link:active,
+.nav-link:hover{
+   
+    border-bottom: 2px solid #ff7675;
+}
+.header{
+
+ font-weight: 630;
+ background-image:linear-gradient(rgba(99, 110, 114, 0.575),rgba(99, 110, 114, 0.568)) ,url(../vendors/img/deva-williamson-S2jw81lfrG0-unsplash.jpg);
+ height: 97vh;
+ background-size: cover;
+ background-position: center;
+ 
+}
+.texto{
+    
+    text-transform: uppercase;
+    color: #555;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 3px;
+    word-spacing: 10px;  
+
+}
+.header-icon{
+    height: 6rem;
+    width: auto;
+}
+
+
+/** BOTOES **/
+#header-botao{
+
+
+}
+.conteiner{
+   max-width: 50%;
+   max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+ /* width: 94rem; */
+}
+#header-botao {
+    color: #fff;
+    border-radius: 100px;
+    margin: 4px 5px;
+    padding: 12px 30px;
+    text-decoration: none;
+    background-attachment: fixed;
+   background-color: #e65252; 
+   }
+   .botao a:link,
+   .botao a:visited{
+       
+       text-decoration: none;
+   }
+   
+/*--CARDS-*/
+
+#cardm{
+    display: inline-block;
+}
+#cards-espacamento{
+
+ margin: 2rem;
+
+}
+.cards{ 
+    background-image:linear-gradient(rgba(99, 110, 114, 0.575),rgba(99, 110, 114, 0.568)) , url("../vendors/img/deva-williamson-S2jw81lfrG0-unsplash.jpg");
+    background-position: center;
+ 
+}
+
+.card-img-top{
+  
+    max-height: 15rem;
+}
+.card-body{
+
+    max-height: 20rem;
+}
+.card-text{
+    max-height: 200rem;
+}
