@@ -35,13 +35,15 @@ h2{
     margin-bottom: 30px;
     text-transform: uppercase;
 }
+
 #section1-h1{
-    font-weight: 400;
- text-transform: uppercase;
+ font-weight: 375;
+text-transform: uppercase;
 margin: 20px auto;
 color: #fff;
 text-align: center;
 opacity: 0.9;
+letter-spacing: 4px;
 }
 #section1-h2{
     text-align: center;
@@ -51,7 +53,7 @@ opacity: 0.9;
     color: #fff;
     font-weight: 500;
     opacity: 0.9;
-    
+    letter-spacing: 3px;
 }
 #header1{
     color:white;
@@ -66,14 +68,123 @@ opacity: 0.9;
     margin-bottom: 2.5rem;
     opacity: 0.88;
 }
+/* SECTION 2 */
+
+.section2-h2{
+    color:#555;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+   
+
+}
+.section2-text{
+    color:#555;
+    font-size: 1.2rem;
+   font-weight:400;
+
+}
+
+
+
+/*FECHAR SECTION 2*/
+
 
 #cor{
     color:white;
 }
 
+/**SECTION 3 **/
+
+/**SECTION 3 **/
+.botao-encomendar{
+    color: #fff;
+    border-radius: 60px; 
+    margin-top: 4px;
+    padding: 12px 56px;
+    text-decoration: none;
+    background-color:#00cec9 ;
+    text-transform: uppercase;
+   
+}
+.botao-encomendar:active,
+.botao-encomendar:hover{
+     background-color: #55efc4;
+     color: #fff;
+    text-decoration: none;
+    
+}
+
+.row-space{
+    margin-bottom: 24px;
+}
+.botao-encomendar:link,
+.botao-encomendar:visited{
+     
+    text-decoration: none;
+}
+
+.section3-h2{
+    font-weight: 400;
+ text-transform: uppercase;
+margin: 20px auto;
+color: #555;
+text-align: center;
+letter-spacing: 3px;
+margin-bottom: 4rem;
+font-size: 1.4rem;
+
+}
+img{
+    
+    height:17rem;
+    width: 14rem;
+}
+
+.icon{
+    font-size:3rem;
+    display: block;
+    color: orangered;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+.iconsv{
+    height: 4rem;
+    width: auto;
+    
+     margin-bottom: 8px;
+     text-align: center;
+
+}
+
+/** FECHAR SECTION 3**/
+
+/* SECTION 4 */
+.comentario{
+
+    margin-top: -1rem;
+}
+
+.comentario:before{
+
+    content: "\201C";
+    font-size: 3rem;
+    }
+
+
+/*FECHAR SECTION 4*/
+
 /* HEADERS */
 
-
+#section1-h1:after{
+    display: block;
+    height: 2px;
+ background-color: orangered;
+content: " ";
+width: 100px;
+margin: 0 auto;
+}
 .nav-link{
 
     text-transform: uppercase;
@@ -92,7 +203,7 @@ opacity: 0.9;
 .header{
 
  font-weight: 630;
- background-image:linear-gradient(rgba(99, 110, 114, 0.575),rgba(99, 110, 114, 0.568)) ,url(../vendors/img/deva-williamson-S2jw81lfrG0-unsplash.jpg);
+ background-image:linear-gradient(rgba(99, 110, 114, 0.575),rgba(99, 110, 114, 0.568)) ,url(../vendors/img/bolo3.jpg);
  height: 97vh;
  background-size: cover;
  background-position: center;
@@ -153,11 +264,7 @@ opacity: 0.9;
  margin: 2rem;
 
 }
-.cards{ 
-    background-image:linear-gradient(rgba(99, 110, 114, 0.575),rgba(99, 110, 114, 0.568)) , url("../vendors/img/deva-williamson-S2jw81lfrG0-unsplash.jpg");
-    background-position: center;
- 
-}
+
 
 .card-img-top{
   
