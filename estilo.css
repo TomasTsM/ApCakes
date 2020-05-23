@@ -73,7 +73,7 @@ letter-spacing: 4px;
 .section2-h2{
     color:#555;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
    
 
@@ -92,6 +92,9 @@ letter-spacing: 4px;
 
 #cor{
     color:white;
+}
+.iconcor{
+    color:#00cec9;
 }
 
 /**SECTION 3 **/
@@ -132,7 +135,7 @@ color: #555;
 text-align: center;
 letter-spacing: 3px;
 margin-bottom: 4rem;
-font-size: 1.4rem;
+font-size: 1.2rem;
 
 }
 img{
@@ -144,7 +147,7 @@ img{
 .icon{
     font-size:3rem;
     display: block;
-    color: orangered;
+    color: #00cec9;
     margin-bottom: 8px;
     text-align: center;
 
@@ -157,17 +160,47 @@ img{
      text-align: center;
 
 }
+.btn-text:link, .btn-text:visited {
+    margin-left: 1.6rem;
+    font-size: 1.4rem;
+    color: #00cec9;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #00cec9;
+    padding: 3px;
+    transition: all .2s; }
+  
+  .btn-text:hover {
+    background-color: #00cec9;
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translate(-2px); }
+  
+  .btn-text:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translate(0); }
+    
+.personalizar{
+    margin-top: 1.2rem;
+    }
+    .personalizar p{
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color:#00cec9;
+    }
 
 /** FECHAR SECTION 3**/
 
 /* SECTION 4 */
+
 .comentario{
 
     margin-top: -1rem;
 }
 
 .comentario:before{
-
+    color: #00cec9;
     content: "\201C";
     font-size: 3rem;
     }
@@ -175,14 +208,69 @@ img{
 
 /*FECHAR SECTION 4*/
 
+
+/* SECTION 5 */
+.mensagem{
+    border-bottom: 4rem;
+}
+.form-mensagem{
+    font-size: 1.5rem;
+    font-family: inherit;
+    border-radius: 2px;
+    background-color: rgba(169, 227, 250, 0.87);
+    border-bottom: 3px solid transparent;
+    width: 120%;
+    border: none;
+    display: block;
+    border-bottom: 2px solid #00cec9;
+}
+.mandar{
+     margin-top: 1.6rem;
+    border-radius: 2rem;
+    width: 80%;
+    height: 3rem;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #00cec9;
+}
+
+.mensagem-icon{
+
+    height: 6rem;
+    width: auto;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+#mensage-section{
+    color:#555;
+     width: 30rem; 
+     margin-top: 4rem; 
+     margin-bottom: 3.5rem;
+     font-weight: 400;
+     text-transform: uppercase;
+  
+ 
+}
+#mensage-section:after{
+  
+    display: block;
+    height: 3px;
+ background-color: #00cec9;
+content: " ";
+width: 14rem;
+margin: 0 auto;
+}
+/*FECHAR SECTION 5*/
+
 /* HEADERS */
 
 #section1-h1:after{
     display: block;
-    height: 2px;
- background-color: orangered;
+    height: 3px;
+ background-color: #00cec9;
 content: " ";
-width: 100px;
+width: 14rem;
 margin: 0 auto;
 }
 .nav-link{
@@ -198,7 +286,7 @@ margin: 0 auto;
 .nav-link:active,
 .nav-link:hover{
    
-    border-bottom: 2px solid #ff7675;
+    border-bottom: 2px solid #00cec9;
 }
 .header{
 
