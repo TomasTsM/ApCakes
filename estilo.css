@@ -1,6 +1,6 @@
 *{
 
-    padding: .3rem;
+    padding: .2rem;
     margin: 0;
     box-sizing: border-box;
 }
@@ -35,6 +35,7 @@ h2{
     margin-bottom: 30px;
     text-transform: uppercase;
 }
+
 
 #section1-h1{
  font-weight: 375;
@@ -365,3 +366,38 @@ margin: 0 auto;
 .card-text{
     max-height: 200rem;
 }
+
+/*FOOTER*/
+
+footer{
+    margin-top: 4rem;
+    height:auto;
+    width:auto;
+    background-color: #636e72;
+}
+.footer-redesli{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-redes li a:link,
+.footer-redes li a:visited{
+ text-decoration: none;
+ color: #b6b5b5;
+}
+.ion-social-whatsapp :link,
+.ion-social-whatsapp :visited{
+    text-decoration: none;
+}
+.nav-social ul li{
+    display: inline-block;
+    
+}
+.iconsize{
+    font-size: 1.8rem;
+}
+.nav-social p{
+ color: rgb(212, 208, 208);
+ font-size: 1.4rem;
+ letter-spacing: 2px;
+}
+/*FOOTER END*/
